@@ -56,7 +56,6 @@ body {
 
 } .ojos {
     width: 100%;
-    height: 20vh;
     margin-top: 30%;
 
     display: flex;
@@ -64,12 +63,12 @@ body {
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    gap: 30%;
+    gap: 20%;
 
 } .ojo {
-    width: 8vh;
-    height: 25vh;
-    border-radius: 50px;
+    width: 8vw;
+    height: 17vw;
+    border-radius: 50vh;
     
     background-color: #4ad9d9;
     box-shadow: 0px 0px 10px #9cffff;
@@ -127,4 +126,76 @@ body {
 
 } .usuario img {
     width: 40%;
+}
+
+@media screen and (max-width: 910px) {
+    body {
+        padding: 40px;
+        flex-wrap: wrap;
+    }
+    .pantalla {
+        width: 90%;
+        height: 60vh;
+    } .pantalla_contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+    } .pantalla_contenido h1 {
+        margin: 0;
+        font-size: 15vw;
+    } .ojos {
+        margin-top: 0;
+    } .ojo {
+        width: 10vw;
+        height: 20vw;
+    }
+    
+    .botonesContainer {
+        width: 0;
+        height: 0;
+        padding-left: 0%;
+        
+    } .botonesContainer button {
+        width: 90%;
+        font-size: inherit;
+    }
+
+    .usuario {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    } .usuario img {
+        width: 20%;
+    } .usuario h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    body {
+        padding: 20px;
+    }
+    .pantalla {
+        width: 100%;
+        height: 50vh;
+    } .pantalla_contenido h1 {
+        font-size: 60px;
+    } .ojos {
+        margin-top: 0;
+    } .ojo {
+        width: 13vw;
+        height: 15vh;
+    }
+    
+    .botonesContainer {
+        width: 100%;
+        height: 100vh;
+    } .botonesContainer button {
+        width: 90%;
+    }
+    
+    
 }
