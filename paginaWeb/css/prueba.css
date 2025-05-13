@@ -1,0 +1,25 @@
+@media screen and (max-width: 430px) {
+    body {
+        padding: 20px;
+    }
+    .pantalla {
+        width: 100%;
+        height: 50vh;
+    } .pantalla_contenido h1 {
+        font-size: 60px;
+    } .ojos {
+        margin-top: 0;
+    } .ojo {
+        width: 13vw;
+        height: 15vh;
+    }
+    
+    .botonesContainer {
+        width: 100%;
+        height: 100vh;
+    } .botonesContainer button {
+        width: 90%;
+    }
+    
+    
+}
