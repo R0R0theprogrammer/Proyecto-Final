@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.botonEleccion {
+    height: 200px;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.izquierda {
+    transform: rotate(90deg);
+}
+
+.derecha {
+    transform: rotate(-90deg);
+}
+
+.derecha,
+.izquierda {
+    width: 300px;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contenedor-imagenes img {
+    width: 100px;
+}
+
+.imagenManos {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
